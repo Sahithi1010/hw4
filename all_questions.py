@@ -84,7 +84,7 @@ def question8():
     answers["(a) P(X_1=1,X_2=1)"] = 20/28
 
     # string: "dependent" or "independent"
-    answers["(a) Relationship between X_1 and X_2"] = "not independent"
+    answers["(a) Relationship between X_1 and X_2"] = "dependent"
 
     # string: "yes" or "no"
     answers["(b) X_1 and X_2 conditionally independent given the class?"] = None
