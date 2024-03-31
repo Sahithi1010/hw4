@@ -46,9 +46,9 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = "yes"
-    answers["(b)"] = "yes"
-    answers["(c)"] = "no"
+    answers["(a)"] = "no"
+    answers["(b)"] = "no"
+    answers["(c)"] = "yes"
 
     # explain-string: explanation in english prose
     answers["(a) example"] = "Animal cant be satisfied with 3 requirements and fit into R4."
@@ -61,7 +61,7 @@ def question7():
     answers = {}
 
     # bool: True/False
-    answers["(a)"] = True
+    answers["(a)"] = False #d
     answers["(b)"] = True
     answers["(c)"] = False
     answers["(d)"] = False
@@ -132,7 +132,7 @@ def question10():
     answers["(a) P(B=1|+)"] = 0.4
     answers["(a) P(C=1|+)"] = 0.6
     answers["(a) P(A=1|-)"] = 0.2
-    answers["(a) P(B=1|-)"] = 0.0
+    answers["(a) P(B=1|-)"] = 0.4 #d
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
