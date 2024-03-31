@@ -61,7 +61,7 @@ def question7():
     answers = {}
 
     # bool: True/False
-    answers["(a)"] = False #d
+    answers["(a)"] = True
     answers["(b)"] = True
     answers["(c)"] = False
     answers["(d)"] = False
@@ -114,7 +114,7 @@ def question9():
     answers = {}
 
     # int
-    answers["(a) K"] = 1
+    answers["(a) K"] = 5
     answers["(b) K"] = 50
 
     # explain_string
@@ -132,7 +132,7 @@ def question10():
     answers["(a) P(B=1|+)"] = 0.4
     answers["(a) P(C=1|+)"] = 0.6
     answers["(a) P(A=1|-)"] = 0.2
-    answers["(a) P(B=1|-)"] = 0.4 #d
+    answers["(a) P(B=1|-)"] = 0.4 
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
