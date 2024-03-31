@@ -8,14 +8,14 @@ def question1():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
-    answers["(b)"] = None
-    answers["(c)"] = None
-    answers["(d)"] = None
+    answers["(a)"] = "no"
+    answers["(b)"] = "no"
+    answers["(c)"] = "yes"
+    answers["(d)"] = "yes"
 
     # explain-string: explanation in english prose
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
+    answers["(a) explain"] = "Since a person can be covered by more than one rule, they are not mutually exclusive. "
+    answers["(b) explain"] = "While the existing rule set does not cover every circumstance, an exhaustive rule set would cover every possible combination of attribute values and provide a prediction for each."
     answers["(c) explain"] = None
     answers["(d) explain"] = None
 
@@ -46,9 +46,9 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = None
-    answers["(b)"] = None
-    answers["(c)"] = None
+    answers["(a)"] = "no"
+    answers["(b)"] = "no"
+    answers["(c)"] = "no"
 
     # explain-string: explanation in english prose
     answers["(a) example"] = None
@@ -61,10 +61,10 @@ def question7():
     answers = {}
 
     # bool: True/False
-    answers["(a)"] = None
-    answers["(b)"] = None
-    answers["(c)"] = None
-    answers["(d)"] = None
+    answers["(a)"] = True
+    answers["(b)"] = True
+    answers["(c)"] = False
+    answers["(d)"] = False
 
     # explain_string: explanation in english prose
     answers["(a) explain"] = None
@@ -79,23 +79,23 @@ def question8():
     answers = {}
 
     # float
-    answers["(a) P(X_1=1)"] = None
-    answers["(a) P(X_2=1)"] = None
-    answers["(a) P(X_1=1,X_2=1)"] = None
+    answers["(a) P(X_1=1)"] = 40/50
+    answers["(a) P(X_2=1)"] = 25/50
+    answers["(a) P(X_1=1,X_2=1)"] = 20/28
 
     # string: "dependent" or "independent"
-    answers["(a) Relationship between X_1 and X_2"] = None
+    answers["(a) Relationship between X_1 and X_2"] = "not independent"
 
     # string: "yes" or "no"
     answers["(b) X_1 and X_2 conditionally independent given the class?"] = None
 
     # float
-    answers["(c) P(X_1=1 | +)"] = None
-    answers["(c) P(X_1=1 | -)"] = None
-    answers["(c) P(X_2=1 | +)"] = None
-    answers["(c) P(X_2=1 | -)"] = None
-    answers["(c) P(X_3=1 | +)"] = None
-    answers["(c) P(X_3=1 | -)"] = None
+    answers["(c) P(X_1=1 | +)"] = 0.5
+    answers["(c) P(X_1=1 | -)"] = 0.32
+    answers["(c) P(X_2=1 | +)"] = 0.8
+    answers["(c) P(X_2=1 | -)"] = 0.5
+    answers["(c) P(X_3=1 | +)"] = 1
+    answers["(c) P(X_3=1 | -)"] = 0.404
 
     # For each row give the class predicted by the model after training using Naive Bayes
     # String: either '+' or '-'
@@ -128,12 +128,12 @@ def question10():
     answers = {}
 
     # float
-    answers["(a) P(A=1|+)"] = None
-    answers["(a) P(B=1|+)"] = None
-    answers["(a) P(C=1|+)"] = None
-    answers["(a) P(A=1|-)"] = None
-    answers["(a) P(B=1|-)"] = None
-    answers["(a) P(C=1|-)"] = None
+    answers["(a) P(A=1|+)"] = 2/3
+    answers["(a) P(B=1|+)"] = 1/3
+    answers["(a) P(C=1|+)"] = 2/3
+    answers["(a) P(A=1|-)"] = 1/7
+    answers["(a) P(B=1|-)"] = 2/7
+    answers["(a) P(C=1|-)"] = 0
 
     # type: explanatory string
     answers["(a) P(A=1|+) explain your answer"] = None
