@@ -16,8 +16,8 @@ def question1():
     # explain-string: explanation in english prose
     answers["(a) explain"] = "Since a person can be covered by more than one rule, they are not mutually exclusive. "
     answers["(b) explain"] = "While the existing rule set does not cover every circumstance, an exhaustive rule set would cover every possible combination of attribute values and provide a prediction for each."
-    answers["(c) explain"] = None
-    answers["(d) explain"] = None
+    answers["(c) explain"] = "The result could be decided by the rule that was applied first."
+    answers["(d) explain"] = "Default class make sure that every instance is classified even if it does not meet any conditions."
 
     return answers
 
@@ -51,9 +51,9 @@ def question3():
     answers["(c)"] = "no"
 
     # explain-string: explanation in english prose
-    answers["(a) example"] = None
-    answers["(b) example"] = None
-    answers["(c) example"] = None
+    answers["(a) example"] = "Animal cant be satisfied with 3 requirements and fit into R4."
+    answers["(b) example"] = "Covers all possible combinations"
+    answers["(c) example"] = "each rule applies to different set, so order doesn't effect."
 
     return answers
 # -----------------------------------------------------------
@@ -67,10 +67,10 @@ def question7():
     answers["(d)"] = False
 
     # explain_string: explanation in english prose
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
-    answers["(c) explain"] = None
-    answers["(d) explain"] = None
+    answers["(a) explain"] = "The back-propagation algorithm uses the chain rule to propagate mistakes back through the network and iteratively compute the gradients of weights at each layer."
+    answers["(b) explain"] = "The kth and k+1th layers' weights and biases related to the nodes' connections are applied, and the outcome is then run through an activation function."
+    answers["(c) explain"] = "This happens when the neural network's gradient shrinks to such a small size during training that the weights are unable to update correctly, causing learning to proceed very slowly or to stop entirely."
+    answers["(d) explain"] = "This is so even if the model performs flawlessly on the training set, the weights will still be adjusted depending on the error that is estimated during backpropagation, and this error will usually not be exactly 0."
 
     return answers
 
@@ -118,8 +118,8 @@ def question9():
     answers["(b) K"] = 50
 
     # explain_string
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
+    answers["(a) explain"] = "Data points are seperated by class, so k=1 or 5 will perform well."
+    answers["(b) explain"] = "There is plenty of overlap between the data points, so selecting a modest K value could result in noise-induced misclassification."
 
     return answers
 
@@ -136,7 +136,7 @@ def question10():
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
-    answers["(a) P(A=1|+) explain your answer"] = None
+    answers["(a) P(A=1|+) explain your answer"] = "As the class is positive, P(A=1) = 0.4"
   
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
