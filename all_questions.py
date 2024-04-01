@@ -46,9 +46,9 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = "no" y
+    answers["(a)"] = "no" 
     answers["(b)"] = "no"
-    answers["(c)"] = "yes" n
+    answers["(c)"] = "yes" 
 
     # explain-string: explanation in english prose
     answers["(a) example"] = "Animal cant be satisfied with 3 requirements and fit into R4."
@@ -105,7 +105,7 @@ def question8():
     answers["(d) Row 4"] = '-'
 
     # float between 0 and 1
-    answers["(d) Training error rate"] = 0.25 0.38
+    answers["(d) Training error rate"] = 0.38
 
     return answers
 
@@ -115,7 +115,7 @@ def question9():
 
     # int
     answers["(a) K"] = 5
-    answers["(b) K"] = 50
+    answers["(b) K"] = 5
 
     # explain_string
     answers["(a) explain"] = "Data points are seperated by class, so k=1 or 5 will perform well."
@@ -128,10 +128,10 @@ def question10():
     answers = {}
 
     # float
-    answers["(a) P(A=1|+)"] = 0.4 0.6
+    answers["(a) P(A=1|+)"] = 0.6
     answers["(a) P(B=1|+)"] = 0.4
-    answers["(a) P(C=1|+)"] = 0.6 0.8
-    answers["(a) P(A=1|-)"] = 0.2 0.4
+    answers["(a) P(C=1|+)"] = 0.8
+    answers["(a) P(A=1|-)"] = 0.4
     answers["(a) P(B=1|-)"] = 0.4 
     answers["(a) P(C=1|-)"] = 0.2
 
@@ -141,7 +141,7 @@ def question10():
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
     answers["(b) P(+|R)"] = 1.0 
-    answers["(b) P(R|+)"] = 0.096
+    answers["(b) P(R|+)"] = 0.2
     answers["(b) P(R|-)"] = 0.0
 
     # string, '+' or '-'
@@ -151,24 +151,24 @@ def question10():
     answers["(b) Explain your reasoning"] = '+'
   
     # float
-    answers["(c) P(A=1)"] = 0.3
-    answers["(c) P(B=1)"] = 0.2
-    answers["(c) P(A=1,B=1)"] = 0.1
+    answers["(c) P(A=1)"] = 0.5
+    answers["(c) P(B=1)"] = 0.4
+    answers["(c) P(A=1,B=1)"] = 0.2
 
     # type: string, 'yes' or 'no'
-    answers["(c) A independent of B?"] = 'no'
+    answers["(c) A independent of B?"] = 'yes'
   
     # type: float
-    answers["(d) P(A=1)"] = 0.3
-    answers["(d) P(B=0)"] = 0.8
-    answers["(d) P(A=1,B=0)"] = 0.2
+    answers["(d) P(A=1)"] = 0.5
+    answers["(d) P(B=0)"] = 0.6
+    answers["(d) P(A=1,B=0)"] = 0.3
 
     # type: string: 'yes' or 'no'
-    answers["(d) A independent of B?"] = 'no'
+    answers["(d) A independent of B?"] = 'yes'
   
     # type: float
     answers["(e) P(A=1,B=1|+)"] = 0.2
-    answers["(e) P(A=1|+)"] = 0.4
+    answers["(e) P(A=1|+)"] = 0.6
     answers["(e) P(B=1|+)"] = 0.4
 
     # type: string: 'yes' or 'no'
