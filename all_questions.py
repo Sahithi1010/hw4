@@ -46,9 +46,9 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = "no"
+    answers["(a)"] = "no" y
     answers["(b)"] = "no"
-    answers["(c)"] = "yes"
+    answers["(c)"] = "yes" n
 
     # explain-string: explanation in english prose
     answers["(a) example"] = "Animal cant be satisfied with 3 requirements and fit into R4."
@@ -99,13 +99,13 @@ def question8():
 
     # For each row give the class predicted by the model after training using Naive Bayes
     # String: either '+' or '-'
-    answers["(d) Row 1"] = '+'
-    answers["(d) Row 2"] = '-'
+    answers["(d) Row 1"] = '+' 
+    answers["(d) Row 2"] = '-'  
     answers["(d) Row 3"] = '-'
     answers["(d) Row 4"] = '-'
 
     # float between 0 and 1
-    answers["(d) Training error rate"] = 0.25
+    answers["(d) Training error rate"] = 0.25 0.38
 
     return answers
 
@@ -128,10 +128,10 @@ def question10():
     answers = {}
 
     # float
-    answers["(a) P(A=1|+)"] = 0.4
+    answers["(a) P(A=1|+)"] = 0.4 0.6
     answers["(a) P(B=1|+)"] = 0.4
-    answers["(a) P(C=1|+)"] = 0.6
-    answers["(a) P(A=1|-)"] = 0.2
+    answers["(a) P(C=1|+)"] = 0.6 0.8
+    answers["(a) P(A=1|-)"] = 0.2 0.4
     answers["(a) P(B=1|-)"] = 0.4 
     answers["(a) P(C=1|-)"] = 0.2
 
